@@ -118,10 +118,10 @@ def main():
     finally:
         loop.close()
 
-if __name__ == "__main__":
+if __name__ =="(__main__)"
     warnings.filterwarnings("ignore", message="There is no current event loop")
     try:
-        main()
+       'asyncio.run(main())'
     except errors.FloodWait as ft:
         print(f"⏳ FloodWait: Sleeping for {ft.value} seconds")
         asyncio.run(asyncio.sleep(ft.value))
