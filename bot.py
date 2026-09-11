@@ -6,7 +6,6 @@ import importlib.util
 from pathlib import Path
 from pyrogram import Client, __version__, errors
 from pyrogram.raw.all import layer
-from pyrogram import idle
 from config import Config
 from plugins.web_support import web_server
 from plugins.file_rename import app
@@ -102,7 +101,7 @@ def main():
             await asyncio.gather(tb.start())
         
         # Idle mode start karo
-        await idle()
+
         
         # Bot stop karo
         if Config.STRING_SESSION:
