@@ -36,7 +36,7 @@ class TechifyBots(Client):
          
     async def start(self):
         await super().start()
-        me = await self.get_me()
+        me =await self.get me()
         self.mention = me.mention
         self.username = me.username  
         self.uptime = Config.BOT_UPTIME
