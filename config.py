@@ -4,9 +4,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
 
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "38300342")
+    API_HASH = os.environ.get("API_HASH", "f3222d77b6224b90840c73b80a5c14e6")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8844372330:AAHQbB6oaTAf31hG3P0_gfrGpu1qaBK3vF4") 
     BOT = None
 
     # premium account string session required 😢 
