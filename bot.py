@@ -34,7 +34,7 @@ class TechifyBots(Client):
         )
                 
          
-    async def start(self):
+    `app=TechifyBots()``app.run()`
         await super().start()
         me = await self.get_me()
         self.mention = me.mention
